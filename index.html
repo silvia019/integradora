@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoHeroe VR - Juego de Realidad Virtual</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, rgb(206, 241, 206), rgb(140, 200, 148), rgb(112, 206, 112)); 
+    }
+    .hero {
+      background: url('image/fondo.jpg') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 4rem;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .feature-icon {
+      font-size: 2rem;
+      color: #2ced93;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand"  href="#">EcoHeroe VR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#juego">Sobre el juego</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#objetivo">Objetivo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#misiones">Misiones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#creadores">Creadores</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- Hero -->
+<section id="inicio" class="hero">
+    <img src="" alt="">
+  <div class="overlay">
+    <h1 class="display-3">EcoHeroe VR</h1>
+    <p class="lead">Explora. Aprende. Transforma. Vive la experiencia de cuidar el planeta desde una fábrica textil.</p>
+    <a href="#objetivo" class="btn btn-success btn-lg mt-4">Ver Ahora</a>
+  </div>
+</section>
+
+<!-- Sobre el juego -->
+<section id="juego" class="container py-5">
+  <h2 class="section-title text-center">¿De qué trata el juego?</h2>
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <img src="image/heroe.png" alt="Gameplay" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-6">
+      <p>En <strong>EcoHeroe VR</strong> te sumerges en una fábrica contaminante y tu misión es reducir su impacto ambiental. Aprende sobre reciclaje, gestión de residuos y el daño que generan los químicos al río.</p>
+      <ul>
+        <li>Experiencia inmersiva en Realidad Virtual</li>
+        <li>Educación ambiental gamificada</li>
+        <li>Ideal para escuelas y talleres ecológicos</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Beneficios -->
+<section id="objetivo" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title text-center">¿Qué aprenderás?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="feature-icon mb-2">🌱</div>
+        <h5>Conciencia ambiental</h5>
+        <p>Refuerza el respeto por la naturaleza con actividades prácticas.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon mb-2">🧪</div>
+        <h5>Manejo de residuos</h5>
+        <p>Diferencia desechos orgánicos, químicos y peligrosos.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon mb-2">🎮</div>
+        <h5>Aprendizaje interactivo</h5>
+        <p>Combina juego y educación para un impacto duradero.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Objetivo del juego -->
+<section class="container py-5">
+    <h2 class="section-title text-center">Objetivo del juego</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10 text-center">
+        <p class="lead">Tu meta como jugador es reducir la contaminación generada por una fábrica textil. A través de misiones interactivas, aplicarás conocimientos sobre el reciclaje, el uso responsable del agua y la clasificación correcta de residuos, todo dentro de un entorno virtual educativo.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Misiones del juego -->
+  <section id="misiones" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-center">¿Qué harás en cada misión?</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">♻️ Separación de residuos</h5>
+              <p class="card-text">Clasifica correctamente residuos orgánicos, químicos y peligrosos para evitar la contaminación del río.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">🚿 Control de aguas residuales</h5>
+              <p class="card-text">Instala filtros adecuados en las máquinas para evitar que los desechos tóxicos lleguen al agua.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow">
+            <div class="card-body">
+              <h5 class="card-title">🌿 Reforestación del entorno</h5>
+              <p class="card-text">Recupera las áreas verdes afectadas por la fábrica y aprende sobre la importancia del equilibrio ecológico.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Final (sin botón) -->
+  <section class="text-center bg-success text-white py-5">
+    <h2 class="mb-3">¿Estás listo para cambiar el mundo?</h2>
+    <p class="lead">Conviértete en el héroe ambiental de una fábrica textil y ayuda a proteger nuestro planeta, ¡desde la realidad virtual!</p>
+  </section>
+  
+  <!-- Contacto / Creadores -->
+<section id="creadores" class="container py-5 text-center">
+    <h2 class="section-title">Conoce al equipo creador</h2>
+    <p class="mb-5">Escanea los códigos QR para saber más sobre cada integrante del proyecto.</p>
+    
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-3 mb-4">
+        <img src="image/Asael_Santiago.jpeg" alt="QR Creador 1" class="img-fluid rounded shadow mb-2">
+        <p><strong>Asael Santiago</strong><br>Programación <br> Modelado 3D</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <img src="image/Angel_Fernandez-1024.jpeg" alt="QR Creador 2" class="img-fluid rounded shadow mb-2">
+        <p><strong>Angel Fernández</strong><br>Diseño gráfico <br>Modelado 3D</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <img src="image/Sara_Romano-1024.jpeg" alt="QR Creador 3" class="img-fluid rounded shadow mb-2">
+        <p><strong>Sara Romano</strong><br>Modelado 3D <br> Programación</p>
+      </div>
+      <div class="col-6 col-md-3 mb-4">
+        <img src="image/silvia_espinoza-1024.jpeg" alt="QR Creador 4" class="img-fluid rounded shadow mb-2">
+        <p><strong>Silvia Espinoza</strong><br>Guión e historia <br>Programación</p>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Footer -->
+<footer class="text-center">
+  <p>&copy; 2025 EcoTextil VR. Todos los derechos reservados.</p>
+  <div>
+    <a href="#" class="text-white me-3">Facebook</a>
+    <a href="#" class="text-white me-3">Instagram</a>
+    <a href="#" class="text-white">Contacto</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

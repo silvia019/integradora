@@ -1,0 +1,10 @@
+.ecoheroe-container {
+    display: flex; /* Organiza el logo y el texto en una fila */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  .Logo {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene proporciones */
+  }
